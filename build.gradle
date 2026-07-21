@@ -12,5 +12,7 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        // Thêm repository của Xposed tại đây
+        maven { url 'https://api.xposed.info/' }
     }
 }
