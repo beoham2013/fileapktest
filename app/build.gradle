@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace 'com.example.fakeusagestats' // Thêm dòng này
     compileSdk 33
 
     defaultConfig {
